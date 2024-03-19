@@ -10,8 +10,17 @@ body {
   box-sizing: border-box;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0;
+}
+
 .container {
-  width: 80%;
+  width: 900px;
+  height: 860px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -91,6 +100,16 @@ body {
   visibility: hidden;
 }
 
+.lose {
+  transition: 0.5s ease-in;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+}
+
 .finish {
   background-color: #4444ff;
   width: 400px;
@@ -121,7 +140,14 @@ header {
 }
 
 header {
-  font-size: 2rem;
+  margin: 0;
+  font-size: 3rem;
   color: #ffffff;
-  height: 60px;
+  height: 100px;
+}
+
+.timer,
+.pairs {
+  color: #ffffff;
+  font-size: 2rem;
 }

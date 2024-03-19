@@ -6,7 +6,7 @@ A memory game created with HTML, CSS and JavaScript.
 
 - A game featuring flip cards that reveal their content upon being clicked.
 - Includes animations to enhance user experience.
-- Option to restar for a new game.
+- Option to restart for a new game.
 
 ## How to play
 

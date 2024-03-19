@@ -8,12 +8,20 @@
 </head>
 <body>
     <header>
-        <h1>Memory Cards Game</h1>
+        <p>Memory Cards Game</p>
     </header>
     <section class="over" id="over">
         <div class="finish">
             <h1>GAME OVER</h1>
-            <h2>You win!</h2>
+            <h2>You win! Nice job!</h2>
+
+            <button onclick="restart()">Restart</button>
+        </div>
+    </section>
+    <section class="lose" id="lose">
+        <div class="finish">
+            <h1>GAME OVER</h1>
+            <h2>Time's up! You lose!</h2>
 
             <button onclick="restart()">Restart</button>
         </div>
@@ -22,6 +30,7 @@
         
     </section>
     <footer>
+        <p class="timer" id="timer"></p><p class="pairs" id="pairs"></p>
         <button id="startButton" onclick="gameplay()">Start!</button>
     </footer>
     <script src="./scripts.js"></script>
