@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #6666ff;
+  display: grid;
+  align-items: center;
+  user-select: none;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.hidden {
+  transition: 0.3s ease-in-out;
+  width: 200px;
+  height: 200px;
+  background-color: #5555ff;
+  border-radius: 30px;
+}
+
+.img {
+  border-radius: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.img1 {
+  transition: 0.3s ease;
+  background-image: url("./img/amarillo.png");
+  background-size: cover;
+}
+
+.img2 {
+  transition: 0.3s ease;
+  background-image: url("./img/azul.png");
+  background-size: cover;
+}
+
+.img3 {
+  transition: 0.3s ease;
+  background-image: url("./img/celeste.png");
+  background-size: cover;
+}
+
+.img4 {
+  transition: 0.3s ease;
+  background-image: url("./img/lila.png");
+  background-size: cover;
+}
+
+.img5 {
+  transition: 0.3s ease;
+  background-image: url("./img/naranjo.png");
+  background-size: cover;
+}
+
+.img6 {
+  transition: 0.3s ease;
+  background-image: url("./img/rojo.png");
+  background-size: cover;
+}
+
+.img7 {
+  transition: 0.3s ease;
+  background-image: url("./img/rosa.png");
+  background-size: cover;
+}
+
+.img8 {
+  transition: 0.3s ease;
+  background-image: url("./img/verde.png");
+  background-size: cover;
+}
+
+.over {
+  transition: 0.5s ease-in;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+}
+
+.finish {
+  background-color: #4444ff;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+button {
+  background-color: #5555ff;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #ffffff;
+}
+
+footer,
+header {
+  display: grid;
+  place-items: center;
+}
+
+header {
+  font-size: 2rem;
+  color: #ffffff;
+  height: 60px;
+}
